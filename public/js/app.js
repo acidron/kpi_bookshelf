@@ -2,6 +2,7 @@ var App = {
 	onRouteChange: function() {
 		App.hashparts = location.hash.substr(1).split('/');
 		var page = App.hashparts[0];
+		if (page == '') page = 'books';
 		var $page = (page == '') ? $('.page.default') : $('.page.page_' + page);
 		if ($page.length == 0) {
 			console.log('there are no page "' + page + '" exists');
