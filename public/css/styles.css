@@ -1,0 +1,19 @@
+.page {
+  -webkit-animation-duration: .4s;
+  -moz-animation-duration: .4s;
+  -o-animation-duration: .4s;
+}
+
+.notifications {
+	position: fixed;
+	height: 100px;
+	width: 500px;
+	z-index: 500;
+}
+
+.errors {
+	position: fixed;
+	height: 100px;
+	width: 500px;
+	z-index: 500;
+}
